@@ -1,0 +1,197 @@
+#code-academy{
+    padding: 2% 5%;
+    .container{ 
+        .top-part{
+            .title-bottom{
+                p{
+                    width: 40%;
+                }
+   
+            }
+
+            .title-top{
+                span{
+                    font-family: visby cf,Sans-serif;
+                    font-size: 50px;
+                    font-weight: 300
+                }
+
+                h2{
+                    font-family: visby cf,Sans-serif;
+                    font-size: 50px;
+                    font-weight: 800;
+                }
+                    
+
+            }
+        }
+
+        .bottom-part{
+            margin-top: 50px;
+
+            .row{
+                display: flex;
+
+                .col-6{
+                    display: flex;
+                    width: 50%;
+                    position: relative; 
+                }
+            }
+        }
+    }
+}
+#code-academy .container .bottom-part  .row .col-6 .project-about{
+    display: flex;
+}
+#code-academy .container .bottom-part  .row .col-6 .project-about .title p
+{
+  margin-left: 10px;
+  font-size: 17px;
+  margin-top: 10px;
+  width: 100%;
+}
+#code-academy .container .bottom-part  .row .col-6 .project-about .title h5{
+  
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #code-academy .container .bottom-part  .row .col-6 .project-about .title a {
+    margin-top: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+     font-size: 18px;
+     font-weight: 800;
+     font-style: normal;
+     line-height: 1.33em;
+     color:#4A4A4A;;
+   }
+   #code-academy .container .bottom-part .row .col-6 .project-about .title span{
+    position: relative;
+    top: 30px;
+    right: 180px;
+   }
+  
+
+
+   #code-academy .container .bottom-part  .row .col-6 .practice-method{
+    display: flex;
+ }
+ #code-academy .container .bottom-part  .row .col-6 .practice-method .title p
+{
+  margin-left: 10px;
+  font-size: 17px;
+  margin-top: 10px;
+  width: 100%;
+}
+#code-academy .container .bottom-part  .row .col-6 .practice-method .title h5{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #code-academy .container .bottom-part  .row .col-6 .practice-method .title a  {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+     font-size: 18px;
+     font-weight: 800;
+     font-style: normal;
+     line-height: 1.33em;
+     color:#4A4A4A;;
+}
+.practice-method{
+    .title{
+        a{
+            span{
+                position: relative;
+                top: 30px;
+                right: 230px;
+
+            }
+        }
+    }
+}
+#code-academy .container .bottom-part  .row .col-6 .academic-transcript{
+    display: flex;
+    margin-top: 20px;
+    
+ }
+ #code-academy .container .bottom-part  .row .col-6 .academic-transcript .title p
+{
+  margin-left: 10px;
+  font-size: 17px;
+  margin-top: 10px;
+  width: 100%;
+}
+#code-academy .container .bottom-part  .row .col-6 .academic-transcript .title h5{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #code-academy .container .bottom-part  .row .col-6 .academic-transcript .title a {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+     font-size: 18px;
+     font-weight: 800;
+     font-style: normal;
+     line-height: 1.33em;
+     color:#4A4A4A;;
+}
+.academic-transcript{
+    .title{
+        a{
+            span{
+                position: relative;
+                top: 30px;
+                right: 270px;
+
+            }
+        }
+    }
+    }
+     #code-academy .container .bottom-part  .row .col-6 .mentor-system .title p
+{
+  margin-left: 10px;
+  font-size: 17px;
+  margin-top: 10px;
+  width: 100%;
+}
+#code-academy .container .bottom-part  .row .col-6 .mentor-system{
+    display: flex;
+    margin-top: 30px;
+ }
+#code-academy .container .bottom-part  .row .col-6 .mentor-system .title h5{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #code-academy .container .bottom-part  .row .col-6 .mentor-system .title a   {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 1.33em;
+    color:#4A4A4A;;
+}
+.mentor-system{
+    .title{
+        a{
+            span{
+                position: relative;
+                top: 30px;
+                right: 190px;
+
+            }
+        }
+    }
+}
+#code-academy .container  .top-part .title-bottom p{
+    font-size: 20px;
+    width: 45%;
+ }
+
+
+
+
+

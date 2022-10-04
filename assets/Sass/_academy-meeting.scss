@@ -1,0 +1,67 @@
+#academy-meeting{
+    position: relative;
+    background-color: #F4F5F8;;
+    height: 400px;
+
+    .container-meeting{
+        padding-left: 200px;
+        padding-right: 50px;
+
+        .left-part{
+            width: 30%;
+        }
+
+    }
+}
+
+#academy-meeting .container-meeting .left-part .title h2{
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: lowercase;
+    color: #4A4A4A;
+  }
+
+  #academy-meeting .container-meeting .left-part .title p{
+    margin-top: 30px;
+    color: #4A4A4A;
+}
+
+#academy-meeting .container-meeting .left-part .title h2 span{
+    position: relative;
+    left: 20px;
+    font-weight: 900;
+    color: #4A4A4A;
+   }
+
+   #academy-meeting .container-meeting .right-part{
+    margin-left: 80px;
+    margin-top: 100px;
+}
+#name{
+    width: 150px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-width: 0px 0px 0px 0px ;
+  }
+  #surname{
+    width: 150px;
+    height: 40px;
+    position: relative;
+    left: 10px;
+    background-color: #FFFFFF;
+    border-width: 0px 0px 0px 0px ;
+}
+.number-thirdly{
+    background-color: #FFFFFF;
+    color: white;
+    border-radius: 0%;
+    border-width: 0px 0px 0px 0px ;
+  }
+  #phone{
+    margin-left: 5px;
+    margin-top: 10px;   
+    width: 300px;
+    height: 59px;
+    background-color: #FFFFFF;
+    border-width: 0px 0px 0px 0px ;
+   }

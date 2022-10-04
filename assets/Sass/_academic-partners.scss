@@ -1,0 +1,41 @@
+#academic-partners{
+    position: relative;
+    top: 300px;
+    bottom: 100px;
+    .container-academic{
+        .title{
+            .title-top{
+                margin-bottom: 10px;
+                h2{
+                    font-family: "Visby CF";
+                    font-size: 50px;
+                    font-weight: 200;
+                    color: #4A4A4A;
+
+                    span{
+                        font-family: "Visby CF";
+                        font-size: 50px;
+                        font-weight: 800;
+                        color: #4A4A4A;
+
+                    }
+
+                }
+            }
+
+        }
+
+    }
+
+}
+#academic-partners .container-academic .title .title-bottom p{
+    color: #4A4A4A;
+    width: 34%;
+    margin-bottom: 50px;
+}  
+#academic-partners .container-academic .title .title-bottom p span{
+    margin-left: 210px;
+}
+.color-img{
+    margin-bottom: 50px;
+}

@@ -1,0 +1,50 @@
+#academy-info{
+    .container-slider{
+        background-image: url("/assets/img/academy-attechment.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 1519.2px;
+        height: 415.85px;
+        overflow: hidden;
+        background-attachment: fixed;
+    }
+
+    .top-part{
+        .title{
+            position: relative;
+            top: 80px;
+            left: 400px;
+        }
+
+    }
+}
+#academy-info .container-slider .top-part .title span{
+    position: relative ;
+    left: 100px;
+}
+#academy-info .container-slider .top-part .title h2{
+    color:#fff;
+    font-size: 23px;
+    font-weight: 800px;
+
+}
+#academy-info .container-slider .bottom-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+#academy-info .container-slider .bottom-part .student-info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#academy-info .container-slider .bottom-part .student-info .column span  {
+    color: #fff;
+    font-size: 23px;
+}
+#academy-info .container-slider .bottom-part .student-info .column  p{
+    color: #fff;
+    font-size: 23px;
+}

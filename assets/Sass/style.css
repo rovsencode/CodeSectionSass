@@ -1,0 +1,617 @@
+body {
+  height: 4800px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#education-parts {
+  padding: 100px 100px;
+}
+
+#education-parts .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#education-parts .container .left-part {
+  width: 50%;
+}
+
+#education-parts .container .left-part .title-top {
+  font-size: 33px;
+}
+
+#education-parts .container .left-part .title-top h2 {
+  font-size: 35px;
+  font-weight: 800;
+  color: #4A4A4A;
+  font-family: "Visby CF";
+  font-size: 50px;
+  font-weight: 900;
+}
+
+#education-parts .container .left-part .title-top span {
+  font-size: 33px;
+}
+
+#education-parts .container .left-part .title-bottom {
+  margin-top: 20px;
+}
+
+#education-parts .container .left-part .title-bottom p {
+  font-size: 20px;
+  width: 90%;
+}
+
+#education-parts .container .right-part {
+  width: 50%;
+}
+
+#education-parts .container .right-part .row .col-6 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.155);
+  position: relative;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+#education-parts .container .right-part .row .col-6:hover {
+  color: white;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#education-parts .container .right-part .row .col-6 i {
+  font-size: 60px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#education-parts .container .right-part .row .col-6 h4 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+#education-parts .container .right-part .row:nth-child(1) .col-6:nth-child(1):hover {
+  background-color: purple;
+}
+
+#education-parts .container .right-part .row:nth-child(1) .col-6:nth-child(2):hover {
+  background-color: yellow;
+}
+
+#education-parts .container .right-part .row:nth-child(2) .col-6:nth-child(1):hover {
+  background-color: blue;
+}
+
+#education-parts .container .right-part .row:nth-child(2) .col-6:nth-child(2):hover {
+  background-color: green;
+}
+
+#code-academy {
+  padding: 2% 5%;
+}
+
+#code-academy .container .top-part .title-bottom p {
+  width: 40%;
+}
+
+#code-academy .container .top-part .title-top span {
+  font-family: visby cf,Sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+#code-academy .container .top-part .title-top h2 {
+  font-family: visby cf,Sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+#code-academy .container .bottom-part {
+  margin-top: 50px;
+}
+
+#code-academy .container .bottom-part .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#code-academy .container .bottom-part .row .col-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  position: relative;
+}
+
+#code-academy .container .bottom-part .row .col-6 .project-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#code-academy .container .bottom-part .row .col-6 .project-about .title p {
+  margin-left: 10px;
+  font-size: 17px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+#code-academy .container .bottom-part .row .col-6 .project-about .title h5 {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#code-academy .container .bottom-part .row .col-6 .project-about .title a {
+  margin-top: 80px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 1.33em;
+  color: #4A4A4A;
+}
+
+#code-academy .container .bottom-part .row .col-6 .project-about .title span {
+  position: relative;
+  top: 30px;
+  right: 180px;
+}
+
+#code-academy .container .bottom-part .row .col-6 .practice-method {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#code-academy .container .bottom-part .row .col-6 .practice-method .title p {
+  margin-left: 10px;
+  font-size: 17px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+#code-academy .container .bottom-part .row .col-6 .practice-method .title h5 {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#code-academy .container .bottom-part .row .col-6 .practice-method .title a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 1.33em;
+  color: #4A4A4A;
+}
+
+.practice-method .title a span {
+  position: relative;
+  top: 30px;
+  right: 230px;
+}
+
+#code-academy .container .bottom-part .row .col-6 .academic-transcript {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+#code-academy .container .bottom-part .row .col-6 .academic-transcript .title p {
+  margin-left: 10px;
+  font-size: 17px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+#code-academy .container .bottom-part .row .col-6 .academic-transcript .title h5 {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#code-academy .container .bottom-part .row .col-6 .academic-transcript .title a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 1.33em;
+  color: #4A4A4A;
+}
+
+.academic-transcript .title a span {
+  position: relative;
+  top: 30px;
+  right: 270px;
+}
+
+#code-academy .container .bottom-part .row .col-6 .mentor-system .title p {
+  margin-left: 10px;
+  font-size: 17px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+#code-academy .container .bottom-part .row .col-6 .mentor-system {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+#code-academy .container .bottom-part .row .col-6 .mentor-system .title h5 {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#code-academy .container .bottom-part .row .col-6 .mentor-system .title a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 1.33em;
+  color: #4A4A4A;
+}
+
+.mentor-system .title a span {
+  position: relative;
+  top: 30px;
+  right: 190px;
+}
+
+#code-academy .container .top-part .title-bottom p {
+  font-size: 20px;
+  width: 45%;
+}
+
+#academy-info .container-slider {
+  background-image: url("/assets/img/academy-attechment.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1519.2px;
+  height: 415.85px;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+#academy-info .top-part .title {
+  position: relative;
+  top: 80px;
+  left: 400px;
+}
+
+#academy-info .container-slider .top-part .title span {
+  position: relative;
+  left: 100px;
+}
+
+#academy-info .container-slider .top-part .title h2 {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 800px;
+}
+
+#academy-info .container-slider .bottom-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  top: 100px;
+}
+
+#academy-info .container-slider .bottom-part .student-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#academy-info .container-slider .bottom-part .student-info .column span {
+  color: #fff;
+  font-size: 23px;
+}
+
+#academy-info .container-slider .bottom-part .student-info .column p {
+  color: #fff;
+  font-size: 23px;
+}
+
+#students-comment {
+  position: relative;
+  top: 60px;
+}
+
+#students-comment .container-comments .title h2 {
+  font-family: "Visby CF";
+  font-size: 50px;
+  font-weight: 200;
+  color: #4A4A4A;
+}
+
+#students-comment .container-comments .title h2 span {
+  font-family: "Visby CF";
+  font-size: 50px;
+  font-weight: 800;
+  color: #4A4A4A;
+}
+
+#students-comment .container-comments .comment {
+  color: #4A4A4A;
+  font-size: 20px;
+  font-family: "Visby CF";
+}
+
+#students-comment .container-comments .comment p {
+  width: 37%;
+  font-style: italic;
+}
+
+#academic-partners {
+  position: relative;
+  top: 300px;
+  bottom: 100px;
+}
+
+#academic-partners .container-academic .title .title-top {
+  margin-bottom: 10px;
+}
+
+#academic-partners .container-academic .title .title-top h2 {
+  font-family: "Visby CF";
+  font-size: 50px;
+  font-weight: 200;
+  color: #4A4A4A;
+}
+
+#academic-partners .container-academic .title .title-top h2 span {
+  font-family: "Visby CF";
+  font-size: 50px;
+  font-weight: 800;
+  color: #4A4A4A;
+}
+
+#academic-partners .container-academic .title .title-bottom p {
+  color: #4A4A4A;
+  width: 34%;
+  margin-bottom: 50px;
+}
+
+#academic-partners .container-academic .title .title-bottom p span {
+  margin-left: 210px;
+}
+
+.color-img {
+  margin-bottom: 50px;
+}
+
+#gradute-students {
+  margin-top: 500px;
+  margin-bottom: 200px;
+}
+
+#gradute-students .container-gradutes {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+#gradute-students .container-gradutes .title {
+  margin-bottom: 50px;
+}
+
+#gradute-students .container-gradutes .title h2 {
+  font-family: "Visby CF";
+  font-size: 50px;
+  font-weight: 200;
+  color: #4A4A4A;
+}
+
+#gradute-students .container-gradutes .title h2 span {
+  font-family: "Visby CF";
+  font-size: 50px;
+  font-weight: 800;
+  color: #4A4A4A;
+}
+
+#academy-meeting {
+  position: relative;
+  background-color: #F4F5F8;
+  height: 400px;
+}
+
+#academy-meeting .container-meeting {
+  padding-left: 200px;
+  padding-right: 50px;
+}
+
+#academy-meeting .container-meeting .left-part {
+  width: 30%;
+}
+
+#academy-meeting .container-meeting .left-part .title h2 {
+  font-size: 50px;
+  font-weight: 300;
+  text-transform: lowercase;
+  color: #4A4A4A;
+}
+
+#academy-meeting .container-meeting .left-part .title p {
+  margin-top: 30px;
+  color: #4A4A4A;
+}
+
+#academy-meeting .container-meeting .left-part .title h2 span {
+  position: relative;
+  left: 20px;
+  font-weight: 900;
+  color: #4A4A4A;
+}
+
+#academy-meeting .container-meeting .right-part {
+  margin-left: 80px;
+  margin-top: 100px;
+}
+
+#name {
+  width: 150px;
+  height: 40px;
+  background-color: #FFFFFF;
+  border-width: 0px 0px 0px 0px;
+}
+
+#surname {
+  width: 150px;
+  height: 40px;
+  position: relative;
+  left: 10px;
+  background-color: #FFFFFF;
+  border-width: 0px 0px 0px 0px;
+}
+
+.number-thirdly {
+  background-color: #FFFFFF;
+  color: white;
+  border-radius: 0%;
+  border-width: 0px 0px 0px 0px;
+}
+
+#phone {
+  margin-left: 5px;
+  margin-top: 10px;
+  width: 300px;
+  height: 59px;
+  background-color: #FFFFFF;
+  border-width: 0px 0px 0px 0px;
+}
+
+footer {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 400px;
+}
+
+.link a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-top {
+  margin-top: 80px;
+  padding-left: 120px;
+  padding-bottom: 30px;
+}
+
+.footer-bottom {
+  padding-left: 30px;
+  padding-right: 200px;
+  padding-top: 50px;
+}
+
+.logo-footer {
+  position: relative;
+  right: 80px;
+}
+
+.code-address {
+  width: 100%;
+  background-color: #F4F5F8;
+  margin-bottom: 50px;
+}
+
+.code-address p {
+  color: #323232d7;
+  font-family: visby cf,Sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.icons {
+  width: 12%;
+}
+
+.logo {
+  width: 7%;
+  margin-left: 5%;
+  margin-right: 20%;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.search-btn {
+  position: relative;
+  left: 200px;
+}
+
+.search-icon {
+  position: relative;
+  right: 20px;
+}
+
+.apply-btn {
+  background-color: #FCBA00;
+  padding: 14px 14px;
+  font-weight: bold;
+  border: 1 px solid whitesmoke;
+  color: black;
+  margin-left: 10px;
+}
+
+.btn a {
+  text-decoration: none;
+}
+
+.nav-item {
+  position: relative;
+  right: 100px;
+}
+
+.nav-item a {
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 16px;
+}
+
+.slide {
+  position: relative;
+  top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.header-bottom {
+  position: fixed;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

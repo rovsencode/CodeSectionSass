@@ -1,0 +1,65 @@
+.code-address{
+    width: 100%;
+    background-color: #F4F5F8;
+    margin-bottom: 50px;
+       
+    }
+    .code-address p{
+        color: #323232d7;
+        font-family: visby cf,Sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        font-style: normal;
+    }
+    .icons{
+        width: 12%;
+    }
+    .logo{
+        width: 7%;
+        margin-left: 5%;
+        margin-right: 20%;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .search-btn{
+        position: relative;
+        left: 200px;
+    }
+    .search-icon{
+        position: relative;
+        right: 20px;
+        
+    }
+    .apply-btn {
+        background-color: #FCBA00;
+        padding:14px 14px; 
+    
+        font-weight: bold;
+        border: 1 px solid whitesmoke;
+        color: black;
+        margin-left: 10px;
+    }
+     .btn a{
+        text-decoration: none;
+    }
+    .nav-item{
+        position: relative;
+        right: 100px;
+    }
+    .nav-item a{
+        margin-right: 50px;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 16px;
+    }
+    .slide{
+         position: relative;
+         top: 30px;
+         padding-left: 40px;
+         padding-right: 40px;
+    }    
+    .header-bottom{
+        position: fixed;
+        width: 100%;
+    }

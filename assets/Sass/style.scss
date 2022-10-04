@@ -1,0 +1,19 @@
+body{
+    height: 4800px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+@import './education-parts';
+@import './code-academy';
+@import './academy-info';
+@import './students-comment';
+@import './academic-partners';
+@import './gradute-students';
+@import './academy-meeting';
+@import './footer';
+@import './section-additions';
+
+

@@ -1,0 +1,30 @@
+#students-comment{
+    position: relative;
+    top: 60px;
+    .container-comments{
+        .title{
+            h2{
+                font-family: "Visby CF";
+                font-size: 50px;
+                font-weight: 200;
+                color: #4A4A4A;
+                span{
+                    font-family: "Visby CF";
+                    font-size: 50px;
+                    font-weight: 800;
+                    color: #4A4A4A;
+                }
+            }
+        }
+
+    }
+}
+#students-comment .container-comments .comment{
+    color: #4A4A4A;
+    font-size: 20px;
+    font-family: "Visby CF";   
+  }
+  #students-comment .container-comments .comment p{
+    width: 37%;
+    font-style: italic;
+  }
